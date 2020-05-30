@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "maiaek-project"
+    }
+  },
+  "defaultProject": "maiaek-project",
+  "cli": {
+    "analytics": "dae9886e-d537-454e-8bc9-35f2e2be9305"
+  }
 }
