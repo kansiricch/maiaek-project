@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { LoginComponentComponent } from './maiaek/login-component/login-component.component';
 import { ManageBillComponent } from './maiaek/manage-bill/manage-bill.component';
 import { CompanyComponent } from './maiaek/company/company.component';
+import { HeaderComponent } from './maiaek/header/header.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    CompanyComponent
     LoginComponentComponent,
     ManageBillComponent,
-    CompanyComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
