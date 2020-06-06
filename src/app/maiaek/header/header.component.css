@@ -1,0 +1,22 @@
+.logoImg {
+    width: 192px;
+    height: 83px;
+  }
+ .bgMaiaek {
+     background-image: url(../../../assets/background/background.jpg);
+  }
+  .reportBill {
+    width: 150px;
+    height: 59px;
+    opacity: 0.5;
+    border-radius: 8px;
+    background-color: #000000;
+  }
+  .reportPo {
+    width: 150px;
+    height: 59px;
+    opacity: 0.5;
+    border-radius: 8px;
+    background-color: #000000;
+  }
+ 

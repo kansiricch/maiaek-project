@@ -1,0 +1,9 @@
+.bgMaiaek {
+    background-image: url(../assets/background/background.jpg);
+    opacity: 1;
+    background-color: black;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}

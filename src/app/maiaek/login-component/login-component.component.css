@@ -1,19 +1,15 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #EAEAEA;
-    height: 100vh;
-  }
-  #login .container #login-row #login-column #login-box {
-    margin-top: 120px;
-    max-width: 600px;
-    height: 320px;
-    border: 1px solid #9C9C9C;
-    background-color: #EAEAEA;
-  }
-  #login .container #login-row #login-column #login-box #login-form {
-    padding: 20px;
-  }
-  #login .container #login-row #login-column #login-box #login-form #register-link {
-    margin-top: -85px;
-  }
+  background: none;
+  
+}
+.bgLogin{
+  background-image: url(../../../assets/background/background.jpg);
+}
+
+
+
