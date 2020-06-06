@@ -12,7 +12,7 @@ import { HeaderComponent } from './maiaek/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CompanyComponent
+    CompanyComponent,
     LoginComponentComponent,
     ManageBillComponent,
     HeaderComponent,
