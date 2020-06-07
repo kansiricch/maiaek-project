@@ -1,0 +1,9 @@
+.btnAdd {
+    width: 150px;
+    height: 44px;
+    border-radius: 8px;
+    border: solid 1px #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    margin: 30px 463px 0px 565px;
+  }
