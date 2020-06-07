@@ -1,0 +1,30 @@
+.companyName {
+  width: 143px;
+  height: 120px;
+  opacity: 0.4;
+  font-family: MuktaMahee;
+  font-size: 150px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #e3aa45;
+ 
+  
+}
+
+.copanyDesc {
+  width: 221px;
+  height: 39px;
+  font-family: Thonburi;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  
+}
+
