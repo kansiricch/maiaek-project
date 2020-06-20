@@ -7,6 +7,7 @@ import { LoginComponentComponent } from './maiaek/login-component/login-componen
 import { ManageBillComponent } from './maiaek/manage-bill/manage-bill.component';
 import { CompanyComponent } from './maiaek/company/company.component';
 import { HeaderComponent } from './maiaek/header/header.component';
+import { ReportBillComponent } from './maiaek/report-bill/report-bill.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { HeaderComponent } from './maiaek/header/header.component';
     LoginComponentComponent,
     ManageBillComponent,
     HeaderComponent,
+    ReportBillComponent,
   ],
   imports: [
     BrowserModule,
