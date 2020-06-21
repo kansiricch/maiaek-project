@@ -8,6 +8,7 @@ import { ManageBillComponent } from './maiaek/manage-bill/manage-bill.component'
 import { CompanyComponent } from './maiaek/company/company.component';
 import { HeaderComponent } from './maiaek/header/header.component';
 import { ReportBillComponent } from './maiaek/report-bill/report-bill.component';
+import { FooterComponent } from './maiaek/footer/footer.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ReportBillComponent } from './maiaek/report-bill/report-bill.component'
     ManageBillComponent,
     HeaderComponent,
     ReportBillComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

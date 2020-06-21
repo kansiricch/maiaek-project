@@ -1,9 +1,31 @@
+body, html {
+    height: 100%;
+  }
+
 .bgMaiaek {
+    height: 100%;
     background-image: url(../assets/background/background.jpg);
     opacity: 1;
     background-color: black;
-    -webkit-background-size: cover;
+    background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    background-repeat: repeat; 
+    background-attachment: fixed;
+   
+   
+    
+}
+.bgMaiaekLogin {
+  height: 100%;
+  background-image: url(../assets/background/background.jpg);
+  opacity: 1;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat; 
+  background-attachment: fixed;
+  width: 100wh;
+  height: 100vh;
+ 
+  
 }
