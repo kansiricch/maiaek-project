@@ -1,0 +1,28 @@
+
+
+ .btnSearch {
+    width: 150px;
+    height: 44px;
+    border-radius: 8px;
+    border: solid 1px #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    margin: 20px 503px 20px 430px;
+  }
+  .tableAdd {
+    width: 100%;
+    height: 100%;
+    opacity: 0.62;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 40px 30px ;
+
+
+  }
+  .reportPO{
+      padding: 50px 60px 30px ;
+  }
+
+  .labelBill{
+    color: white;
+  }
