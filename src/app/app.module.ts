@@ -19,7 +19,9 @@ import { ReportPoComponent } from './maiaek/report-po/report-po.component';
     LoginComponentComponent,
     ManageBillComponent,
     HeaderComponent,
+    FooterComponent,
     ReportBillComponent,
+    ReportPoComponent
   ],
   imports: [
     BrowserModule,
