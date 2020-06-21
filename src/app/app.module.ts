@@ -9,6 +9,7 @@ import { CompanyComponent } from './maiaek/company/company.component';
 import { HeaderComponent } from './maiaek/header/header.component';
 import { ReportBillComponent } from './maiaek/report-bill/report-bill.component';
 import { FooterComponent } from './maiaek/footer/footer.component';
+import { ReportPoComponent } from './maiaek/report-po/report-po.component';
 
 
 @NgModule({
@@ -19,7 +20,6 @@ import { FooterComponent } from './maiaek/footer/footer.component';
     ManageBillComponent,
     HeaderComponent,
     ReportBillComponent,
-    FooterComponent,
   ],
   imports: [
     BrowserModule,
