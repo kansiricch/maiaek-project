@@ -2,20 +2,17 @@
     <div>
         <form>
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-3 text-right col-form-label labelBill ">บริษัท</label>
+                <label for="company" class="col-sm-3 text-right col-form-label labelBill ">บริษัท</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="staticEmail" value="email@example.com">
+                    <input id ="company" type="text" name="company" class="form-control"  placeholder="บริษัท">
                 </div>
             </div>
     
-    
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-3 text-right col-form-label labelBill ">ประเภท</label>
+                <label for="" class="col-sm-3 text-right col-form-label labelBill ">ประเภท</label>
                 <div class="col-sm-8">
-    
-                    <select class="form-control select2-hidden-accessible" id="select2-search-hide"
-                        style="width: 100%; height:36px;" data-select2-id="select2-search-hide" tabindex="-1"
-                        aria-hidden="true">
+                    <select class="form-control" id="select2-search-hide" name="type" style="width: 100%; height:36px;">
+                        <option value="" data-select2-id="45">เลือกประเภท</option>
                         <option value="AK" data-select2-id="45">Alaska</option>
                         <option value="HI" data-select2-id="448">Hawaii</option>
                         <option value="CA" data-select2-id="450">California</option>
@@ -29,44 +26,52 @@
             </div>
     
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-3 text-right col-form-label labelBill ">เลขที่บิล</label>
+                <label for="bill-number" class="col-sm-3 text-right col-form-label labelBill ">เลขที่บิล</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+                    <input type="text" class="form-control" id="ิbill-number" name="bill-number" placeholder="012345678">
                 </div>
             </div>
     
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-3 text-right col-form-label labelBill ">วันที่พิมพ์</label>
+                <label for="bill-date" class="col-sm-3 text-right col-form-label labelBill ">วันที่พิมพ์</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+                    <input type="date" class="form-control" id="bill-date" name="bill-date">
                 </div>
             </div>
     
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-3 text-right col-form-label labelBill ">ทะเบียนรถ</label>
+                <label for="bill-license" class="col-sm-3 text-right col-form-label labelBill ">ทะเบียนรถ</label>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+                    <input type="text" class="form-control" id="bill-license" name="bill-license" placeholder="82-1020">
                 </div>
                 <label for="staticEmail" class="col-sm-2 text-right col-form-label labelBill ">โควต้า</label>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+
+                    <select class="form-control" id="select2-search-hide" name="bill-quata" style="width: 100%; height:36px;">
+                        <option value="" data-select2-id="45">เลือกโควต้า</option>
+                        <option value="1" data-select2-id="45">โควต้า1</option>
+                        <option value="2" data-select2-id="448">โควต้า2</option>
+                        <option value="3" data-select2-id="450">โควต้า3</option>
+                        <option value="4" data-select2-id="451">โควต้า4</option>
+                        <option value="5" data-select2-id="452">โควต้า5</option>
+                        <option value="6" data-select2-id="453">โควต้า6</option>
+                    </select>
                 </div>
     
             </div>
     
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-3 text-right col-form-label labelBill ">น้ำหนัก</label>
+                <label for="bill-weight" class="col-sm-3 text-right col-form-label labelBill ">น้ำหนัก</label>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+                    <input type="text" class="form-control" id="bill-weight" name="bill-weight" placeholder="12340">
                 </div>
-                <label for="staticEmail" class="col-sm-2 text-right col-form-label labelBill ">ราคา</label>
+                <label for="bill-price" class="col-sm-2 text-right col-form-label labelBill ">ราคา</label>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+                    <input type="text" class="form-control" id="bill-price" name="bill-price" placeholder="1.23">
                 </div>
-    
             </div>
             <div>
-                <button class="btn  btnAdd "> ADD </button>
+                <button class="btn btnAdd" type="submit"> ADD </button>
             </div>
     
         </form>
